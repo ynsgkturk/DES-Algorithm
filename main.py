@@ -62,7 +62,7 @@ def main():
 
     cipher = des_encrypt.text_encrypt(binary_text)
 
-    print("Encrypted message of 'you are ': ", cipher)
+    print("Encrypted message of 'text file': ", cipher)
 
     decrypted_cipher = des_decrypt.text_encrypt(cipher)
 
